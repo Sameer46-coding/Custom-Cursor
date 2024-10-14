@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.head h1{
+    font-size: 4em;
+}
+
+.crsr{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: 0.03s ease;
+}
